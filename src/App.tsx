@@ -1,9 +1,11 @@
+import Loader from "./components/Loader"
 import ScrollIndicator from "./components/ScrollIndicator"
 
 const App = () => {
   return (
     <div>
-      <ScrollIndicator />
+      {/* <ScrollIndicator /> */}
+      <Loader />
     </div>
   )
 }
