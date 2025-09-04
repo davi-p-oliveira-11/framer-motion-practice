@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { image } from "framer-motion/client";
 import { useState } from "react";
 
 const images = [

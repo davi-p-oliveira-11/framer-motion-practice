@@ -2,7 +2,9 @@
 // import Loader from "./components/Loader";
 // import ScrollIndicator from "./components/ScrollIndicator";
 
-import Caroulsel from "./components/Caroulsel";
+import Sidebar from "./components/Sidebar";
+
+// import Caroulsel from "./components/Caroulsel";
 
 const App = () => {
   return (
@@ -32,8 +34,11 @@ const App = () => {
           Card 3
         </DraggableCard>
       </div> */}
-      <div className="flex justify-center items-center h-screen">
+      {/* <div className="flex justify-center items-center h-screen">
         <Caroulsel />
+      </div> */}
+      <div className="flex justify-center items-center h-screen w-full bg-gray-950 text-white">
+        <Sidebar />
       </div>
      
     </div>
