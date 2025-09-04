@@ -2,6 +2,7 @@
 // import Loader from "./components/Loader";
 // import ScrollIndicator from "./components/ScrollIndicator";
 
+import ScrollCarousel from "./components/ScrollCarousel";
 import Sidebar from "./components/Sidebar";
 
 // import Caroulsel from "./components/Caroulsel";
@@ -39,6 +40,10 @@ const App = () => {
       </div> */}
       <div className="flex justify-center items-center h-screen w-full bg-gray-950 text-white">
         <Sidebar />
+      </div>
+
+      <div>
+        <ScrollCarousel />
       </div>
      
     </div>
